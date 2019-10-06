@@ -1,0 +1,58 @@
+#include<stdio.h>
+#include<conio.h>
+void main ()
+{
+	int i=0,x;
+	char ch ;
+	while (getche()!='\n')
+	{
+		if(getche()=='m')
+		{
+			i++;
+			x=i*1000;
+			printf("\n%d",x);
+		}
+		i=1; 
+		if(getche()=='d')
+		{
+			x=i*500;
+			i++;
+			printf("\n%d",x);
+		}
+		i=1; 
+		if(getche()=='c')
+		{
+			x=i*100;
+			i++;
+			printf("\n%d",x);
+		}
+		i=1; 
+		if(getche()=='l')
+		{
+			x=i*50;
+			i++;
+			printf("\n%d",x);
+		}
+		i=1; 
+		if(getche()=='x')
+		{
+			x=i*10;
+			i++;
+			printf("\n%d",x);
+		}
+		i=1; 
+		if(getche()=='v')
+		{
+			x=i*5;
+			i++;
+			printf("\n%d",x);
+		}
+		i=1; 
+		if(getche()=='i')
+		{
+			x=i*1;
+			i++;
+			printf("\n%d",x);
+		}
+	}
+}
